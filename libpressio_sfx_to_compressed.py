@@ -8,7 +8,7 @@ import libpressio
 
 
 def make_compressor(n_peaks, rows, cols):
-    peaks = np.zeros((n_peaks, 3), np.uint16)
+    peaks = np.zeros((n_peaks, 3), np.uint64)
     for i in range(n_peaks):
         peaks[i, 0] = rows[i]
         peaks[i, 1] = cols[i]

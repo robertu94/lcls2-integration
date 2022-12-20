@@ -10,7 +10,7 @@ MAX_X, MAX_Y = 1024, 1024
 n_peaks = np.uint16(MAX_PEAKS)
 rows = np.zeros((n_peaks,), np.uint16)
 cols = np.zeros((n_peaks,), np.uint16)
-peaks = np.zeros((n_peaks, 3), np.uint16)
+peaks = np.zeros((n_peaks, 3), np.uint64)
 
 # make synthetic data
 for i in range(n_peaks):
